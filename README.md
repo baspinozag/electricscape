@@ -1,2 +1,2 @@
-# electricscape
-ELECTRIC SCAPE Website Project
+# ELECTRIC SCAPE
+ELECTRIC SCAPE Website
