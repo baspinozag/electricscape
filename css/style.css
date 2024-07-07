@@ -9,21 +9,21 @@ body {
 h1 {
     text-align: center;
     color: white;
-}
-
-h2 {
-    text-align: center;
-    color: #e91e63;
-}
-
-h1 {
     font-size: 3em;
     margin-top: 20px;
 }
 
 h2 {
+    text-align: center;
+    color: #e91e63;
     font-size: 2em;
     margin-top: 40px;
+}
+
+header img{
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .lanzamientos {
