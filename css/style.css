@@ -20,7 +20,7 @@ h2 {
     margin-top: 40px;
 }
 
-header img{
+header img {
     width: 50%;
     max-width: 1000px;
     margin: 0 auto;
@@ -75,12 +75,21 @@ p {
 }
 
 .links a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
     padding: 15px;
+    border-radius: 15px; 
+    height: 25px; 
+    width: 150px; 
     background-color: #333;
-    border-radius: 10px;
-    text-align: center;
+    overflow: hidden; 
+}
+
+.links a img {
+    width: 100%; 
+    height: auto; 
 }
 
 .links a:hover {
