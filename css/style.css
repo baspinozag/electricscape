@@ -22,21 +22,27 @@ h2 {
 
 header img {
     width: 50%;
-    max-width: 1000px;
+    max-width: 35vw;
     margin: 0 auto;
 }
 
 .lanzamientos {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
+}
+
+@media (max-width: 2050px) {
+    .lanzamientos {
+        flex-wrap: wrap;
+    }
 }
 
 .lanzamientos .portada {
     margin: 10px;
     padding: 10px;
     background-color: #1a1a1a;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
 }
 
