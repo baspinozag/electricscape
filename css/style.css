@@ -21,9 +21,10 @@ h2 {
 }
 
 header img {
-    width: 50%;
+    width: 40%;
     max-width: 35vw;
     margin: 0 auto;
+    display: block; 
 }
 
 .lanzamientos {
@@ -32,7 +33,7 @@ header img {
     justify-content: center;
 }
 
-@media (max-width: 2050px) {
+@media (max-width: 1400px) {
     .lanzamientos {
         flex-wrap: wrap;
     }
@@ -41,13 +42,13 @@ header img {
 .lanzamientos .portada {
     margin: 10px;
     padding: 10px;
-    background-color: #1a1a1a;
-    border-radius: 15px;
-    text-align: center;
+    max-width: 300px; 
+    width: 100%;
+    box-sizing: border-box;
 }
 
-h3 {
-    margin-left: 5%;
+h3 , h4, h5 {
+    text-align: center;
 }
 
 a {
@@ -61,7 +62,7 @@ a:hover {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -86,16 +87,16 @@ p {
     align-items: center;
     margin: 10px;
     padding: 15px;
-    border-radius: 15px; 
-    height: 25px; 
-    width: 150px; 
+    border-radius: 15px;
+    height: auto;
+    width: 150px;
     background-color: #333;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .links a img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 .links a:hover {
@@ -142,18 +143,18 @@ footer .redes-sociales a {
 }
 
 footer .redes-sociales img {
-    width: 5vw; 
-    height: 5vw; 
-    max-width: 50px; 
-    max-height: 50px; 
+    width: 5vw;
+    height: 5vw;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 @media (max-width: 768px) {
     footer .redes-sociales img {
-        width: 7vw; 
-        height: 7vw; 
-        max-width: 25px; 
-        max-height: 25px; 
+        width: 7vw;
+        height: 7vw;
+        max-width: 25px;
+        max-height: 25px;
     }
 }
 
