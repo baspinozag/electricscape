@@ -47,8 +47,12 @@ header img {
     box-sizing: border-box;
 }
 
-h3, h4, h5 {
+h3, h4, h5, h6 {
     text-align: center;
+}
+
+h6 {
+    color: #e91e63;
 }
 
 a {
@@ -68,7 +72,7 @@ a:hover {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 0.8em;
     line-height: 1.6em;
     text-align: center;
     padding: 0 20px;
@@ -160,4 +164,11 @@ footer .redes-sociales img {
 
 footer .redes-sociales a:hover img {
     opacity: 0.8;
+}
+
+.reproductor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
