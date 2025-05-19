@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Bienvenido");
+    console.log("ELECTRIC SCAPE");
     
     // Animación del logo al cargar la página
     const logo = document.querySelector(".logo");
